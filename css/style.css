@@ -116,12 +116,25 @@ body {
   }
 }
 
+@keyframes moveInBottom {
+  /* Start */
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  /* Finish */
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 100px;
   transition: all 0.2s;
+  position: relative;
 }
 .btn:hover {
   transform: translateY(-10px);
@@ -137,4 +150,32 @@ body {
   color: #777;
   padding: 15px 40px;
   display: inline-block;
+}
+
+.btn::after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btn-white::after {
+  background-color: white;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  /* don't show button initially when page is loaded */
+  animation-fill-mode: backwards;
 }
