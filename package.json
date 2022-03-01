@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Website for adventours tours MERN App",
+  "main": "app.js",
+  "type":"module",
+  "scripts": {
+    "start":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunaidQureshi05/natours.git"
+  },
+  "author": "Juned Ahmad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JunaidQureshi05/natours/issues"
+  },
+  "homepage": "https://github.com/JunaidQureshi05/natours#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
