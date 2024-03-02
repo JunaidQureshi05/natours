@@ -1,2 +1,3 @@
-#Natours Website
-Natours is a fictional company that offers adventurous tours in natural locations for people seeking thrilling experiences in nature. The aim of this project is to create a website for Natours using advanced CSS and animations.
+# Natours Website
+
+> Natours is an imaginative venture that offers daring excursions to untamed landscapes, designed for thrill-seekers craving exhilarating experiences amidst nature's wonders. This project's goal is to construct a website for Natours using advanced CSS techniques and animations, providing an immersive platform for showcasing the company's offerings and captivating the adventurous spirit of its audience.
