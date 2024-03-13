@@ -1,0 +1,19 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "A modern website for a fictional nature tours company built using advance css concepts like sass,flexbox,grid,animation etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JunaidQureshi05/natours.git"
+  },
+  "author": "Junaid Qureshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JunaidQureshi05/natours/issues"
+  },
+  "homepage": "https://github.com/JunaidQureshi05/natours#readme"
+}
