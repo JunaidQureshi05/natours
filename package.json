@@ -4,7 +4,8 @@
   "description": "A modern website for a fictional nature tours company built using advance css concepts like sass,flexbox,grid,animation etc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JunaidQureshi05/natours/issues"
   },
-  "homepage": "https://github.com/JunaidQureshi05/natours#readme"
+  "homepage": "https://github.com/JunaidQureshi05/natours#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
 }
